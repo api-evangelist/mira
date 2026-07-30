@@ -1,8 +1,31 @@
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 aid: mira
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mira.png
 name: Mira
-description: Mira is a company surfaced as a portfolio company of canaan-partners, general-catalyst and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Mira is a San Francisco-based consumer hardware startup building AI-powered
+  smart glasses positioned as an always-on "second brain." Founded in 2024 by Harvard
+  builders AnhPhu Nguyen and Caine Ardayfio (rebranded from Halo), the camera-free
+  glasses pair a dual-waveguide display, microphone, and iOS companion app to deliver
+  live transcription, real-time translation across 60+ languages, hands-free AI assistance,
+  and searchable memory of everyday conversations. Mira raised a $6.6M seed round led
+  by General Catalyst and began shipping its first devices in January 2026. It is a
+  privacy-first consumer wearable with an iOS companion app and does not currently
+  expose a public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/mira/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +36,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Smart Glasses
+- Wearables
+- Artificial Intelligence
+- Consumer Hardware
+- Augmented Reality
+- Transcription
+- Translation
+- Voice Assistant
 apis: []
+common:
+- type: DomainSecurity
+  url: security/mira-domain-security.yml
+- type: Website
+  url: https://trymira.com/
+- type: Pricing
+  url: https://trymira.com/pages/store
+- type: TermsOfService
+  url: https://trymira.com/pages/terms-of-service
+- type: PrivacyPolicy
+  url: https://trymira.com/pages/privacy-policy
+- type: Support
+  url: https://discord.gg/f6M4ySYRgW
+- type: X (Twitter)
+  url: https://x.com/miraglasses
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mira-glasses
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
